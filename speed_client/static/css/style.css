@@ -1,0 +1,92 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin:0;padding:0;	border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+body {	font-family:"Roboto", sans-serif;font-size:16px;color:#000;;font-weight:400;background-color:#fff;}
+ol, ul {list-style:none;}
+strong {font-weight:500;}
+em {font-style:normal;}
+a {color:#000;text-decoration:none;}
+a:link {color:#000;text-decoration:none;}
+a:hover {color:#000;text-decoration:none;}
+a, button {outline:none !important;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";content:none;}
+table {border-collapse:collapse;border-spacing: 0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+
+
+/*common*/
+header{padding:100px 40px 106px 40px;}
+h1,h2{color:#fff;}
+h1{font-size:60px;font-weight:400;}
+h2{font-size:font-size:24px;font-weight:300;margin-top:10px;}
+button[type="button"]{width:290px;color:#fff;border:none;border-radius:5px;padding:20px 0;text-align:center;cursor:pointer;font-size:20px;}
+section{margin:20px 0;}
+.btnZone{margin-top:20px;}
+.textAleft{text-align:left;}
+.textAright{text-align:right;}
+.clearfix:after{content:'';display:block;clear:both;}
+.wrapper{max-width:1920px;min-width:1650px;margin:0 auto;}
+.title{float:left;}
+.search{width:50%;float:right;padding-top:20px;position:relative;}
+.search input[type="text"]{width:100%;font-weight:300;font-size:24px;color:#363636;border:none;border-radius:5px;padding:18px 16px 18px;}
+.search input[type="text"]::-webkit-input-placeholder {
+    color: #bfbfbf;
+    opacity: 1; /* Firefox */
+    font:300 24px 'Roboto';
+  
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #bfbfbf;
+   font:300 24px 'Roboto';
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #bfbfbf;
+   font:300 24px 'Roboto';
+}
+
+.graph-img{width:99%;}
+.search-img{position:absolute;right:16px;top:36px;}
+.container{padding:0 40px;margin:40px 0;}
+.graphZone{width:48%;float:left;text-align:center;}
+.today{padding:36px 0 0 0;font-size:72px;}
+.today h3{color:#9b9b9b;font-size:36px;font-weight:300;}
+.todays{font-size:72px;}
+.contents{float:right;width:48%;margin-left:4%;}
+.address{padding:20px 0 20px 20px;margin-top:10px;}
+
+table{width:100%;}
+table tr{border-top:1px solid #cdcdcd;}
+table tr th,table tr td{padding:20px 15px 18px;}
+table tr td{color:#929292;padding:20px 15px 18px;}
+table thead tr{border-top:none;}
+table tbody{border-top:2px solid #929292;border-bottom:2px solid #929292;}
+table tbody tr:nth-child(2n+1){background:#f9f9f9;}
+
+.info-title{font-size:28px;font-weight:500;}
+.info .info-table tr td{font-weight:500;}
+.info .info-table{float:left;width:calc(100% - 360px);}
+.info .info-image{float:right;margin-left: 20px;}
+
+.blue .today{background:#e5f9ff;}
+.blue .text-color{color:#47abc7;}
+.blue .address{background:#f0fcff;border:1px solid #47abc7;}
+.blue button[type="button"]{background:#47abc7;}
+
+.green .today{background:#e5ffec;}
+.green .text-color{color:#37d68f;}
+.green .address{background:#eafef5;border:1px solid #37d690;}
+.green button[type="button"]{background:#37d690;}
+
+
+/*style*/
+#speed header{background:url(../images/speed_bg.png) no-repeat 0 0;}
+#speed-view header{background:url(../images/speed_bg.png) no-repeat 0 0;}
+#door header{background:url(../images/door_bg.png) no-repeat 0 0;}
+#door-view header{background:url(../images/door_bg.png) no-repeat 0 0;}
+
